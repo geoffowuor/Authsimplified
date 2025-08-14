@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "authsimplified"
+version = "0.1.0"
+description = "A simplified Django authentication package with email OTP verification."
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Geoffrey Owuor", email = "geoffreyowuor71@gmail.com" }
+]
+dependencies = [
+    "django>=4.0",
+    "djangorestframework>=3.14",
+    "pyotp>=2.9"
+]
+requires-python = ">=3.8"
