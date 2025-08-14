@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+  <body>
+    <div style="font-family: Arial, Helvetica, sans-serif; line-height:1.5;">
+      <h2>{{ current_site }} — Email Verification</h2>
+      <p>Hello {{ user.username }},</p>
+      <p>Your verification code is:</p>
+      <p style="font-size:24px; font-weight:bold;">{{ otp }}</p>
+      <p>This code expires in {{ interval }} seconds.</p>
+      <hr>
+      <p>If you didn't request this, ignore this email.</p>
+    </div>
+  </body>
+</html>
