@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "authsimplified"
-version = "0.1.0"
+version="0.1.1"
 description = "A simplified Django authentication package with email OTP verification."
 readme = "README.md"
 license = { file = "LICENSE" }

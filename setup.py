@@ -5,9 +5,9 @@ README = Path(__file__).parent.joinpath("README.md").read_text(encoding="utf-8")
 
 setup(
     name="authsimplified",
-    version="0.1.0",
+    version="0.1.1",
     author="Geoffrey Owuor",
-    author_email="you@example.com",
+    author_email="geoffreyowuor71@example.com",
     description="Plug-and-play Django app: JWT authentication + OTP email verification",
     long_description=README,
     long_description_content_type="text/markdown",
