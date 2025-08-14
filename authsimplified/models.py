@@ -14,7 +14,7 @@ class User(AbstractUser, TimeStampedModel):
     bio = models.TextField(blank=True)
     profile_image = models.ImageField(upload_to="profile_images/", blank=True, null=True)
 
-    # Email verification / OTP flow
+    # OTP flow
     is_active = models.BooleanField(default=False)
     secret_key = models.CharField(blank=True, null=True, max_length=100)
     otp_created_at = models.DateTimeField(blank=True, null=True)
