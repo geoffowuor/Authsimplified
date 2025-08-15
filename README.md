@@ -104,8 +104,10 @@ urlpatterns = [
 ### 6. Run Migrations
 
 ```bash
+python manage.py makemigrations
 python manage.py migrate
 ```
+
 
 
 ## API Endpoints
