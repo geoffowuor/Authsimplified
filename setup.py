@@ -7,7 +7,7 @@ setup(
     name="authsimplified",
     version="0.1.1",
     author="Geoffrey Owuor",
-    author_email="geoffreyowuor71@example.com",
+    author_email="geoffreyowuor71@gmail.com",
     description="Plug-and-play Django app: JWT authentication + OTP email verification",
     long_description=README,
     long_description_content_type="text/markdown",
